@@ -223,3 +223,25 @@ __marimo__/
 .streamlit/secrets.toml
 
 yolov8n.pt
+
+# Python 部分
+__pycache__/
+*.pt
+
+# Keil 编译产生的中间文件
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.htm
+*.lnp
+*.sct
+*.dep
+*.bak
+*.uvguix.*
+Objects/
+Listings/
