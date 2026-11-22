@@ -20,7 +20,7 @@ except Exception as e:
 model=YOLO('yolov8n.pt')
 
 #调用摄像头
-cap=cv2.VideoCapture(1)
+cap=cv2.VideoCapture(0)
 if not cap.isOpened():
     print("无法打开摄像头")
     exit()
